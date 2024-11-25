@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(135, 206, 250, 0.7) 25%, rgba(43, 88, 211, 0.7) 40%, rgba(47, 126, 146, 0.7) 75%, rgba(255, 244, 179, 0.7) 100%);
+    backdrop-filter: blur(20px); /* Efecto de desenfoque */
+    height: 100vh;
+    margin: 0;
+    color: var(--color-blanco);
+}
+
+.contenedor_1 {
+    padding: 25px;
+    background-color: var(--color-azul-profundo);
+    width: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.589);
+    border-radius: 12px;
+    text-align: center;
+    color: var(--color-blanco);
+}
+
+@media (max-width: 750px){
+    .contenedor_btn_1{
+        width: 90%;
+    }
+}
+
+.contenedor_1 .boton, .contenedor_1 input[type="submit"] {
+    display: inline-block;
+    width: 90%;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: var(--color-blanco);
+    color: var(--color-azul-profundo);
+    border-radius: 6px;
+    border: 2px solid var(--color-azul-claro);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contenedor_1 .boton:hover, .contenedor_1 input[type="submit"]:hover {
+    background-color: var(--color-azul-claro);
+    color: var(--color-blanco);
+}
+
+.contenedor_1 a:active {
+    background-color: var(--color-azul-profundo); /* Efecto al hacer clic */
+    color: var(--color-blanco);
+}
+
+
+.contenedor_1 h2 {
+    margin-bottom: 15px;
+    color: var(--color-blanco);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.contenedor_1 .info {
+    margin-top: 20px;
+    padding: 10px;
+    color: var(--color-blanco);
+    background-color: var(--color-azul-verdoso);
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contenedor_1 input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.link {
+    color: #FFFFFF;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: #FFF4B3;
+    transform: scale(1.1);
+}

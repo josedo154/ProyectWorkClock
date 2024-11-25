@@ -15,67 +15,7 @@
     border: 0;
 }
 
-.contenedor_1 {
-    padding: 20px;
-    background-color: var(--color-azul-profundo);
-    width: 40%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-    text-align: center;
-    color: var(--color-blanco);
-}
-
-@media (max-width: 750px){
-    .contenedor_btn_1{
-        width: 90%;
-    }
-}
-
-.contenedor_1 a {
-    display: inline-block; /* Asegura que se comporten como bloques */
-    width: 90%;
-    margin: 10px 0;
-    padding: 12px; /* Igual que el padding en los botones */
-    background-color: var(--color-blanco);
-    color: var(--color-azul-profundo);
-    border-radius: 6px;
-    border: 2px solid var(--color-azul-claro);
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center; /* Asegura que el texto esté centrado */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contenedor_1 a:hover {
-    background-color: var(--color-azul-claro);
-    color: var(--color-blanco);
-}
-
-.contenedor_btn_1 a:active {
-    background-color: var(--color-azul-profundo); /* Efecto al hacer clic */
-    color: var(--color-blanco);
-}
-
-
-.contenedor_btn_1 h2 {
-    margin-bottom: 15px;
-    color: var(--color-blanco);
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-.contenedor_1 p {
-    margin-top: 20px;
-    padding: 10px;
-    color: var(--color-blanco);
-    background-color: var(--color-azul-verdoso);
-    border-radius: 6px;
-    font-size: 16px;
+::selection {
+    background-color: #FFF4B3; 
+    color: #2b58d3; 
 }
