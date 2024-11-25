@@ -16,7 +16,7 @@
 }
 
 .contenedor_1 {
-    padding: 20px;
+    padding: 25px;
     background-color: var(--color-azul-profundo);
     width: 40%;
     position: fixed;
@@ -35,11 +35,11 @@
     }
 }
 
-.contenedor_1 a {
-    display: inline-block; /* Asegura que se comporten como bloques */
+.contenedor_1 .boton, .contenedor_1 input[type="submit"] {
+    display: inline-block;
     width: 90%;
     margin: 10px 0;
-    padding: 12px; /* Igual que el padding en los botones */
+    padding: 12px; 
     background-color: var(--color-blanco);
     color: var(--color-azul-profundo);
     border-radius: 6px;
@@ -47,23 +47,23 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    text-align: center; /* Asegura que el texto esté centrado */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-align: center; 
+    text-decoration: none; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.contenedor_1 a:hover {
+.contenedor_1 .boton:hover, .contenedor_1 input[type="submit"]:hover {
     background-color: var(--color-azul-claro);
     color: var(--color-blanco);
 }
 
-.contenedor_btn_1 a:active {
+.contenedor_1 a:active {
     background-color: var(--color-azul-profundo); /* Efecto al hacer clic */
     color: var(--color-blanco);
 }
 
 
-.contenedor_btn_1 h2 {
+.contenedor_1 h2 {
     margin-bottom: 15px;
     color: var(--color-blanco);
     font-size: 24px;
@@ -78,4 +78,25 @@
     background-color: var(--color-azul-verdoso);
     border-radius: 6px;
     font-size: 16px;
+}
+
+.contenedor_1 input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.link {
+    color: #FFFFFF; 
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+.link:hover {
+    color: #FFF4B3; 
+    transform: scale(1.1);
 }

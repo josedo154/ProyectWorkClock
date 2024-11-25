@@ -1,23 +1,20 @@
 class cordinadorModel{
     constructor(){
-        /*Estos son los unicos obligatorios al asignarle coordinador los demas datos se introducen*/
-        this.usuario                      // los usuarios no pueden repetirse por lo que funcionaran como id
+        this.usuario                        // los usuarios no pueden repetirse por lo que funcionaran como id
         this.clave
+        this.usuarioPublico                 // para no facilitar el autentico usuario del coordenidor 
+        this.empresa
+        this.correo
 
         /*Informacion a almacenar*/
-        this.fichaje = {};
-        this.horario = {};
-        this.faltas = {};
+        this.listaEmpleados = {}
 
-        /*Datos Personales */
-        this.dni
-        this.ubicacion                           //Ubicacion del puesto de trabajo
-        this.nombre
-        this.apellido1
-        this.apellido2
-        this.correo
-        this.telefono
-        this.fechaNac
-
+         /*Datos Personales */
+         this.dni
+         this.nombre
+         this.apellido1
+         this.apellido2
+         this.telefono
+         this.fechaNac
     }
 }

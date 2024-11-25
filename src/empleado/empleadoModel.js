@@ -1,19 +1,22 @@
 class empleadoModel{
     constructor(){
-        this.usuario                        // los usuarios no pueden repetirse por lo que funcionaran como id
+        /*Estos son los unicos obligatorios*/
+        this.usuario                      // los usuarios no pueden repetirse por lo que funcionaran como id
         this.clave
-        this.usuarioPublico                 // no obligatorio pero no pueden hacerles peticiones sin eso 
+        this.correo
 
         /*Informacion a almacenar*/
-        this.listaEmpleados = {}
+        this.fichaje = {};
+        this.horario = {};
+        this.faltas = {};
 
-         /*Datos Personales */
-         this.dni
-         this.nombre
-         this.apellido1
-         this.apellido2
-         this.correo
-         this.telefono
-         this.fechaNac
+        /*Datos Personales */
+        this.dni
+        this.ubicacion                           //Ubicacion del puesto de trabajo
+        this.nombre
+        this.apellido1
+        this.apellido2
+        this.telefono
+        this.fechaNac
     }
 }
