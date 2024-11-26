@@ -10,19 +10,19 @@
 <body>
     <div class="contenedor_1">
         <h2>Inicio de Sesion: Cordinador</h2>
-        <form action="" name="inicio_sesion">
+        <form action="" name="inicio_sesion" class="coordinador">
             <input type="text" placeholder="Username" name="usuario">
-            <input type="text" placeholder="Username visible" name="usuario">
             <input type="password" placeholder="Pasword" name="clave">
-            <input type="password" placeholder="Pasword repeat" name="clave">
-            <input type="text" placeholder="Empresa" name="empresa">
-            <input type="email" placeholder="Email" name="correo">
-
-            <input type="submit" value="create account" name="submit">
+            <input type="button" value="Iniciar Sesion" name="enviar">
         </form>
         <br>
-        <a href="iniciarSesionCordinador.html" class="link">Iniciar Sesion</a>
+        <a href="crearCuenta.html" class="link">Crear cuenta</a>
         <a href="../../../index.html" class="link">Inicio</a>
     </div>
 </body>
 </html>
+
+<script src="../coordinadorModel.js"></script>
+<script src="../../../assets/coordinadorBD.js"></script>
+<script src="../../../assets/sesion.js"></script>
+<script src="../../utilidades/inicioSesion.js"></script>

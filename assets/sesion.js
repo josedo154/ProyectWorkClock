@@ -1,0 +1,1 @@
+let sesion = new Cordinador("root", "1234", "pubUser1", "Empresa A", "correo1@empresa.com", "12345678A", "Juan", "Pérez", "López", "600123456", "1985-05-12");

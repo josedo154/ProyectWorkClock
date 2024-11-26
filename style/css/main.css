@@ -19,3 +19,35 @@
     background-color: #FFF4B3; 
     color: #2b58d3; 
 }
+
+header {
+    background-color: #2b58d3;
+    color: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.671);
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    background-color: #1d3b8a;
+    color: #FFF4B3;
+}

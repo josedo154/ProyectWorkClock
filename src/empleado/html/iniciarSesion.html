@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkClock: Cordinador</title>
+    <title>WorkClock: Empleado</title>
     <link rel="stylesheet" href="../../../style/css/main.css">
     <link rel="stylesheet" href="../../../style/css/formulariosEntrada.css">
 </head>
 <body>
     <div class="contenedor_1">
-        <h2>Inicio de Sesion: Cordinador</h2>
-        <form action="" name="inicio_sesion">
+        <h2>Inicio de Sesion: Empleado</h2>
+        <form action="" name="inicio_sesion" class="empleado">
             <input type="text" placeholder="Username" name="usuario">
             <input type="password" placeholder="Pasword" name="clave">
-            <input type="submit" value="Iniciar Sesion" name="submit">
+            <input type="button" value="Iniciar Sesion" name="enviar">
         </form>
         <br>
-        <a href="crearCuentaCoordinador.html" class="link">Crear cuenta</a>
+        <a href="crearCuenta.html" class="link">Crear cuenta</a>
         <a href="../../../index.html" class="link">Inicio</a>
     </div>
 </body>
 </html>
+
+<script src="../empleadoModel.js"></script>
+<script src="../../../assets/empleadoBD.js"></script>
+<script src="../../../assets/sesion.js"></script>
+<script src="../../utilidades/inicioSesion.js"></script>
