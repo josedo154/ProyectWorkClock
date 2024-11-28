@@ -51,3 +51,20 @@ header nav a:hover {
     background-color: #1d3b8a;
     color: #FFF4B3;
 }
+
+header nav .selected{
+    background-color: #1d3b8a;
+}
+
+.sesion {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    color: #FFFFFF;
+    background-color: #2f7e92;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.54);
+    cursor: default;
+}

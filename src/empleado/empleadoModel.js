@@ -6,9 +6,9 @@ class Empleado {
         this.correo = correo;
 
         /* Información a almacenar */
-        this.fichaje = {};
-        this.horario = {};
-        this.faltas = {};
+        this.fichaje = [];
+        this.horario = [];
+        this.faltas = [];
         this.coordinador = coordinador;
 
         /* Datos Personales */

@@ -7,7 +7,7 @@ class Cordinador {
         this.correo = correo;
 
         /* Información a almacenar */
-        this.listaEmpleados = {};
+        this.listaEmpleados = [];
 
         /* Datos Personales */
         this.dni = dni;

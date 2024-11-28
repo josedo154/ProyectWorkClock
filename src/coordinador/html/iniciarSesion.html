@@ -13,7 +13,7 @@
         <form action="" name="inicio_sesion" class="coordinador">
             <input type="text" placeholder="Username" name="usuario">
             <input type="password" placeholder="Pasword" name="clave">
-            <input type="button" value="Iniciar Sesion" name="enviar">
+            <input type="button" value="Iniciar Sesion" name="enviar" onclick="setSesionCordinador()">
         </form>
         <br>
         <a href="crearCuenta.html" class="link">Crear cuenta</a>
@@ -23,6 +23,7 @@
 </html>
 
 <script src="../coordinadorModel.js"></script>
+<script src="../../empleado/empleadoModel.js"></script>
 <script src="../../../assets/coordinadorBD.js"></script>
 <script src="../../../assets/sesion.js"></script>
 <script src="../../utilidades/inicioSesion.js"></script>
