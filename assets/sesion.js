@@ -10,3 +10,5 @@ sesionCord.listaEmpleados.push(
 );
 
 let sesionEmp = new Empleado("root", "1234", "correo1@empresa.com", "11223344A", "Oficina 1", "Carlos", "Molina", "García", "650123456", "1984-01-15", "cord2");
+sesionEmp.faltas.push("19-09-2024: 5 min tarde")
+sesionEmp.faltas.push("2-09-2024: 5 min adelantado")
